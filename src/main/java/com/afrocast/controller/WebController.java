@@ -14,6 +14,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import javax.validation.Valid;
 
 @Controller
+@RequestMapping("web")
 public class WebController extends WebMvcConfigurerAdapter {
 
     private EmployeeRepository employeeRepository;
